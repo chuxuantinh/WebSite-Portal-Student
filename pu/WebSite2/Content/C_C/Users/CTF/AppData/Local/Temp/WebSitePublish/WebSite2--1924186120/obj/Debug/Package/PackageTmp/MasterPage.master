@@ -1,0 +1,134 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_n0jw5t13" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <title>g </title>
+    
+   <link href="Default.css" rel="stylesheet" type="text/css" />
+    <link href="images/main.css" rel="stylesheet" type="text/css" />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>
+
+        // SCRIPT TO FIND AND MANIPULATE HTML ELEMENTS.
+
+        $('#btClearAll').click(function () {
+            $('#divContainer').find('input:text').each(
+                function () {
+                    $('input:text[id=' + $(this).attr('id') + ']').val('');
+                }
+            );
+            $('#tblContainer').find('input:text').each(
+                function () {
+                    $(this).val('');
+                }
+            );
+        });
+
+</script>
+   
+</head>
+<body class="body" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" >
+
+<div align="center">
+    <form id="form1" runat="server">
+
+          <table border="0" width="1002 id="table1" cellspacing="0" cellpadding="0">
+		<tr>
+			<td height="24"></td>
+		</tr>
+		<tr>
+			<td>
+			    <img border="0" src="Images/tivi.gif" height="143" style="width: 1002px"/>
+			</td>
+		</tr>
+		<tr>
+			<td height="31" valign="bottom">
+
+			<table border="0" width="100%" id="table2" cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="31">
+					<div align="right" class="auto-style1">
+						<table border="0" width="650" id="table5" cellspacing="0" cellpadding="0">
+							<tr>
+								
+							</tr>
+						</table>
+
+                          <td width="200" valign="bottom" >
+					    <table cellpadding="0" cellspacing="0" class="menutop">
+					        <tr class="menutop">
+					            <td>
+					                <img border="0" src="images/left_b_login.gif" width="5" height="25" />
+					            </td>
+					            <td background="images/bg_b_login.gif" class="menutop">
+					            <asp:LinkButton ID="lbtDangnhap" Text="Đăng nhập" runat="server" OnClick="lbtDangnhap_Click" CssClass="menutop"></asp:LinkButton>
+					            </td>
+					            <td>
+					                <img border="0" src="images/right_b_login.gif" width="5" height="25" />
+					            </td>
+					        </tr>
+					    </table>
+					
+					</td>
+					</div>
+					</td>
+					<td width="200" valign="bottom" >
+					   
+					
+					</td>
+					
+				</tr>
+			</table>
+
+			</td>
+
+          
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+			<table border="0" width="100%" id="table6" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="10" height="300">&nbsp;</td>
+					<td>
+					    <asp:contentplaceholder id="ContentPlaceHolder1" runat="server"></asp:contentplaceholder>
+					</td>
+					<td width="10">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="10">&nbsp;</td>
+					<td height="35">
+					<asp:Literal ID="ltrTieude" runat="server"></asp:Literal>
+					</td>
+					<td width="10">&nbsp;</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+
+    </form>
+    </div>
+   
+    <div align="center" class="panelbottom">
+
+    <div class="thongtin">
+<span class="tentruong">Trường Cao đẳng Văn hóa Nghệ thuật và Du lịch Sài Gòn </span>
+<br>
+<span>53/1 Phan Văn Hớn-Khu phố 5-P.Tân Thới Nhất-Quận.12-Tp.HCM</span>
+<br>
+<span>Điện thoại:(08)38959871-(08)39210145-Fax:(08)39210577 </span>
+<br>
+<span></span>
+</div>
+
+</body>
+</html>

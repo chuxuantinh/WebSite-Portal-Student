@@ -1,0 +1,21 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/website_deploy" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\CTF\\AppData\\Local\\Temp\\WebSitePublish\\WebSite2--1924186120\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\CTF\\AppData\\Local\\Temp\\WebSitePublish\\WebSite2--1924186120\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="CoreUisConnectionString-Web.config Connection String" defaultValue="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=Coreuis;User ID=sa; Password=cucac2009;">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\CTF\\AppData\\Local\\Temp\\WebSitePublish\\WebSite2--1924186120\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CoreUisConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="CTConnectionString-Web.config Connection String" defaultValue="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=STUACT;User ID=sa;Password=cucac2009;">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\CTF\\AppData\\Local\\Temp\\WebSitePublish\\WebSite2--1924186120\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CTConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="PSCPortalConnectionString-Web.config Connection String" defaultValue="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=Online;User ID=sa;Password=cucac2009;">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\CTF\\AppData\\Local\\Temp\\WebSitePublish\\WebSite2--1924186120\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PSCPortalConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="WebConnectionString-Web.config Connection String" defaultValue="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=Portlets;User ID=sa; Password=cucac2009;">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\CTF\\AppData\\Local\\Temp\\WebSitePublish\\WebSite2--1924186120\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="WSConnectionString-Web.config Connection String" defaultValue="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=Portlets;User ID=sa;Password=cucac2009;">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\CTF\\AppData\\Local\\Temp\\WebSitePublish\\WebSite2--1924186120\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WSConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

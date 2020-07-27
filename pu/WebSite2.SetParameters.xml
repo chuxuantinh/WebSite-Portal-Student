@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/website_deploy" />
+  <setParameter name="CoreUisConnectionString-Web.config Connection String" value="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=Coreuis;User ID=sa; Password=cucac2009;" />
+  <setParameter name="WebConnectionString-Web.config Connection String" value="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=Portlets;User ID=sa; Password=cucac2009;" />
+  <setParameter name="PSCPortalConnectionString-Web.config Connection String" value="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=Online;User ID=sa;Password=cucac2009;" />
+  <setParameter name="WSConnectionString-Web.config Connection String" value="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=Portlets;User ID=sa;Password=cucac2009;" />
+  <setParameter name="CTConnectionString-Web.config Connection String" value="Data Source=CTF-VAIO\CHUTINH;Initial Catalog=STUACT;User ID=sa;Password=cucac2009;" />
+</parameters>
